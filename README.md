@@ -4,7 +4,7 @@
 Trabalho prático – Sistemas Distribuídos  
 Universidade Federal do Ceará – Campus de Quixadá  
 Professor: Rafael Braga  
-Aluno:Jefferson Marques e Elenildo 
+Aluno:Jefferson Marques e Elenildo       
 Período: 2025.1
 
 ---
