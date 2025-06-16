@@ -1,11 +1,14 @@
 package pojos;
-public class Pedido implements Avaliavel {
-    protected int id;
-    protected String data;
-    protected double valorTotal;
-    protected String status;
-    protected int avaliacaoNota;
-    protected String avaliacaoComentario;
+
+public class Pedido {
+    private int id;
+    private String data;
+    private double valorTotal;
+    private String status;
+    private int avaliacaoNota;
+    private String avaliacaoComentario;
+
+    public Pedido() {}  
 
     public Pedido(int id, String data, double valorTotal, String status) {
         this.id = id;
@@ -14,16 +17,16 @@ public class Pedido implements Avaliavel {
         this.status = status;
     }
 
-    @Override
-    public void avaliar(int nota, String comentario) {
-        this.avaliacaoNota = nota;
-        this.avaliacaoComentario = comentario;
-    }
-
     public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
     public String getData() { return data; }
+    public void setData(String data) { this.data = data; }
     public double getValorTotal() { return valorTotal; }
+    public void setValorTotal(double valorTotal) { this.valorTotal = valorTotal; }
     public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
     public int getAvaliacaoNota() { return avaliacaoNota; }
+    public void setAvaliacaoNota(int nota) { this.avaliacaoNota = nota; }
     public String getAvaliacaoComentario() { return avaliacaoComentario; }
+    public void setAvaliacaoComentario(String comentario) { this.avaliacaoComentario = comentario; }
 }
